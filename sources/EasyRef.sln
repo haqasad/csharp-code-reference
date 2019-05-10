@@ -3,9 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{AF1D6E2C-2879-47A8-994D-98FD4369CE17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{B58C74FE-F3F7-42D5-86E3-3F3CB2F161EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{CD775E58-0B84-4EC8-9D8D-2A10044D4649}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oop", "Oop", "{1539CFC6-FB5F-471F-87BD-8A2FB2FFC5C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{E1DB9C87-AA10-4AB6-B691-62B758BEEA18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyRef.Execute", "Core\EasyRef.Execute\EasyRef.Execute.csproj", "{D07A0704-A827-4D29-8E2F-DA77E6ABFD75}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D07A0704-A827-4D29-8E2F-DA77E6ABFD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07A0704-A827-4D29-8E2F-DA77E6ABFD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07A0704-A827-4D29-8E2F-DA77E6ABFD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07A0704-A827-4D29-8E2F-DA77E6ABFD75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D07A0704-A827-4D29-8E2F-DA77E6ABFD75} = {AF1D6E2C-2879-47A8-994D-98FD4369CE17}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3772CE21-4CF7-460B-8233-4B8A313F11C2}
